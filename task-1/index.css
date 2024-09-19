@@ -1,0 +1,85 @@
+body{
+    background-color: #CAD2C5;
+
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+    display: flex;
+    background-color: #1B1F23;
+    height: 50px;
+    color: whitesmoke;
+}
+.git-img{
+    margin-left: 10px;
+    display: flex;
+    align-items: center;
+}
+img{
+    height: 35px;
+    width: 35px;
+}
+.git-title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 45%;
+}
+.gt-bdy{
+    display: flex;
+    height: 300px;
+    margin: 30px;
+}
+.lft{
+    background-color: #1B1F23;
+    height: 300px;
+    width: 300px;
+    border-radius:15px ;
+}
+.rgt-container{
+ margin-left: 50px;
+ width: 100%;
+ height: 300px;
+ /* display: flex; */
+ /* justify-content: center; */
+}
+.rgt-content{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.rgt-int{
+    display: flex;
+    background-color: #1B1F23;
+    width: 70%;
+    padding: 10px;
+    margin-left: 70px;
+    color: gray;
+    border-radius: 5px;
+    /* align-items: center; */
+}
+
+.rgt-seq{
+    display: flex;
+    justify-content: space-between;
+    margin-top:20px ;
+    margin-bottom: 20px;
+}
+.box{
+    background-color: #1B1F23;
+    border-radius: 10px;
+    width: 180px;
+    height: 100px;
+}
+.rgt-end{
+    margin-top: 20px;
+}
+.last{
+    background-color:#1B1F23;
+    height: 110px;
+    border-radius: 10px;
+}
